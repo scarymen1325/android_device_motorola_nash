@@ -273,3 +273,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# USB Debug
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=adb
