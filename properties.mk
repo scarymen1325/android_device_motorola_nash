@@ -173,7 +173,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.is_wps_enabled=true \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.eri64_as_home=1 \
-    persist.vendor.radio.data_con_rprt=1 \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sw_mbn_update=1 \
