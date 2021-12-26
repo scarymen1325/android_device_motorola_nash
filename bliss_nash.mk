@@ -19,14 +19,13 @@ $(call inherit-product, device/motorola/nash/device.mk)
 # Boot Animtion
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Bliss stuff
+BLISS_BUILDTYPE=OFFICIAL
+BLISS_BUILD_VARIANT=vanilla
+
 # Device identifiers
-BUILD_FINGERPRINT := motorola/nash_tmo_c/nash:8.0.0/OCXS27.109-51-14-7/12:user/release-keys
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := nash
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := Moto Z (2)
 PRODUCT_NAME := bliss_nash
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=nash \
-        PRIVATE_BUILD_DESC="nash-user 8 OCXS27.109-51-14-7 e78f1 release-keys"
