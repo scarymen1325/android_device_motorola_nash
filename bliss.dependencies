@@ -1,0 +1,56 @@
+[	
+ {
+    "remote": "github",
+    "repository": "scarymen1325/android_kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998",
+    "revision": "lineage-18.1"
+ },
+ {
+    "remote": "github",
+    "repository": "scarymen1325/android_device_motorola_nash",
+    "target_path": "device/motorola/nash",
+    "revision": "bliss-arcadia"
+ }
+ {
+    "remote": "github",
+    "repository": "scarymen1325/android_vendor_motorola_nash",
+    "target_path": "vendor/motorola/nash",
+    "revision": "nash"
+ }
+ {
+    "remote": "github",
+    "repository": "scarymen1325/android_hardware_qcom_audio.git",
+    "target_path": "hardware/qcom-caf/msm8998/audio",
+    "revision": "lineage-18.1-caf-msm8998"
+ }
+ {
+    "remote": "github",
+    "repository": "scarymen1325/android_hardware_qcom_display.git",
+    "target_path": "hardware/qcom-caf/msm8998/display",
+    "revision": "lineage-18.1-caf-msm8998"
+ }
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "revision": "lineage-19.0"
+ }
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_motorola",
+    "target_path": "hardware/motorola",
+    "revision": "lineage-18.1"
+ }
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_external_bson",
+    "target_path": "external/bson",
+    "revision": "lineage-18.1"
+ }
+ {
+    "remote": "github",
+    "repository": "LineageOS/android_system_qcom",
+    "target_path": "system/qcom",
+    "revision": "lineage-18.1"
+ }
+]
